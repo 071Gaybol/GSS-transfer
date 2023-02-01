@@ -61,3 +61,14 @@
     gap: 8px;
   }
 }
+
+/* ===Nossos Destinos=== */
+
+.destinos-bg {
+  background-color: #0C123A;
+}
+
+.destinos h1 {
+  color: #F7F7f7;
+  font: 500 2.5rem "Roboto";
+}
