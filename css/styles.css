@@ -1,0 +1,63 @@
+/* header contact */
+
+.header-contact{
+  background-color: #273284;
+  color: #fff;
+  font: 500 0.8rem "Roboto";
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.header-contact-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-items {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .header-contact {
+    display: none;
+  }
+} 
+
+/* ===header=== */
+
+.header-bg {
+  background-color: #090D2C;
+}
+
+.header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  font: 400 1.2rem "Roboto";
+  align-items: center;
+}
+
+.header img {
+  width: 100px;
+  height: 131px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 600px) {
+  .header img {
+    width: 66px;
+    height: 87px;
+  }
+
+  .header-menu {
+    font-size: 1rem;
+    gap: 8px;
+  }
+}
