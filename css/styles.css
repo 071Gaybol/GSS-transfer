@@ -66,9 +66,11 @@
 
 .destinos-bg {
   background-color: #0C123A;
+  padding-top: 40px;
 }
 
 .destinos h1 {
   color: #F7F7f7;
   font: 500 2.5rem "Roboto";
+  margin-bottom: 20px;
 }

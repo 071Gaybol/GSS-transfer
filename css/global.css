@@ -44,3 +44,8 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.button {
+  background: linear-gradient(180deg, #FEE106 0%, #F9AB15 100%);
+  padding: 10px 20px;
+}
