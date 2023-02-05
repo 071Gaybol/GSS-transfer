@@ -24,6 +24,15 @@ dd {
   margin: 0px;
 }
 
+h1,
+h1 {
+  font-family: "Poppins";
+}
+
+p {
+  font-family: "Roboto";
+}
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -48,4 +57,22 @@ img {
 .button {
   background: linear-gradient(180deg, #FEE106 0%, #F9AB15 100%);
   padding: 10px 20px;
+  font: 500 1.2rem "Roboto";
+  color: #201200;
+}
+
+.button:hover {
+  color: #161d50;
+  transition: .3s;
+}
+
+@media (max-width: 600px) {
+  .button {
+    padding: 6px 12px;
+    font-size: 0.7rem;
+  }
+
+  .button:hover {
+    padding: 6px 12px
+}
 }
