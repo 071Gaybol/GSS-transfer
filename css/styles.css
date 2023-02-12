@@ -274,7 +274,16 @@
     top: 8px;
     width: 140px;
   }
-  
+}
 
- 
+.informacao-extra {
+  margin-top: 20px;
+  font: 500 1.5rem "roboto";
+  color: #FFB800;
+}
+
+@media (max-width: 600px) {
+  .informacao-extra {
+    font-size: 0.6rem;
+  }
 }
